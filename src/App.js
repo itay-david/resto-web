@@ -19,7 +19,7 @@ const App = () => (
       <FindUs />
       <Footer />
     </div>
-  )
+  , document.getElementById('root'))
 );
 
 export default App;
